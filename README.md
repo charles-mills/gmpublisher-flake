@@ -1,12 +1,4 @@
-# gmpublisher-flake
-
-A Nix flake for [gmpublisher](https://github.com/WilliamVenner/gmpublisher).
-
-Supported systems:
-
-- `x86_64-linux`
-- `aarch64-darwin`
-- `x86_64-darwin`
+A Nix flake for [gmpublisher](https://github.com/WilliamVenner/gmpublisher), supporting MacOS and Linux.
 
 ## Usage
 

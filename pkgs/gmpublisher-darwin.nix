@@ -7,7 +7,7 @@
 }:
 
 let
-  version = "2.12.1";
+  version = "2.12.2";
 
   licenseFile = fetchurl {
     url = "https://raw.githubusercontent.com/WilliamVenner/gmpublisher/${version}/LICENSE";
@@ -20,7 +20,7 @@ stdenvNoCC.mkDerivation {
 
   src = fetchurl {
     url = "https://github.com/WilliamVenner/gmpublisher/releases/download/${version}/gmpublisher_macOS.app.zip";
-    hash = "sha256-e1SUxBNHdR3UeESvsSTk+18Y6g0++To4ywmZ+tOGePY=";
+    hash = "sha256-QHMFVPee0P6b44jlCrzCxO7E5ivXkSrmT+dS0fhgckQ=";
   };
 
   nativeBuildInputs = [

@@ -18,7 +18,7 @@
 }:
 
 let
-  version = "2.12.1";
+  version = "2.12.2";
 
   gstPlugins = [
     gst_all_1.gstreamer
@@ -44,7 +44,7 @@ stdenv.mkDerivation {
 
   src = fetchurl {
     url = "https://github.com/WilliamVenner/gmpublisher/releases/download/${version}/gmpublisher_linux64.zip";
-    hash = "sha256-C1YapJwkKlg9W8XDScRlMo4aWuytb1otHhMNOFibnfo=";
+    hash = "sha256-51aUwVd3IaW/qzJeOS14zzsofEEQxKS/8Fu6kq2DTNI=";
   };
 
   sourceRoot = ".";
